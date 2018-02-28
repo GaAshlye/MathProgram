@@ -1,0 +1,55 @@
+
+  @model Calculations
+  @{
+    ViewData["Title"] = "Math Input Form";
+  }
+ <div class="container">
+    <form class="form-horizontal"
+            asp-action="DoCalculation"
+            method="POST">
+        <fieldset>
+            @* Title of Form *@
+            <legend>Calculator</legend>
+
+            @* Left Operand *@
+            <div class="form-group">
+                <label asp-for="leftOperand">
+                </label>
+                <input class="form-control"
+                    asp-for="leftOperand"
+                    placeholder="Left Operand"
+                    type="number">
+            </div>
+
+            @* Operation Select *@
+            <div class="form-group">
+                <label asp-for="Operator"></label>
+                <select class="form-control" asp-for="Operator">
+                        <option>+</option>
+                        <option>-</option>
+                        <option>*</option>
+                        <option>/</option>
+                        <option>%</option>
+                </select>
+            </div>
+
+            @* Right Operand *@
+            <div class="form-group">
+                <label asp-for="rightOperand">
+                </label>
+                <input class="form-control"
+                    asp-for="rightOperand"
+                    placeholder="Right Operand"
+                    type="number">
+            </div>
+
+            @* Hidden Result *@
+            <input asp-for="Operator" type="hidden">
+
+            @* Submit Button *@
+            <div class="form-group">
+                <button class="btn btn-default" type="submit">Submit</button>
+            </div>                
+        </fieldset>
+    </form>
+</div>
