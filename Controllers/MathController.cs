@@ -45,6 +45,18 @@ namespace MathCalculatorPost.Controllers
                 case "%":
                         operation.result = operation.leftOperand % operation.rightOperand; 
                         break;
+                case "round":
+                        operation.result = Math.Round(operation.leftOperand, 1);                        
+                        //Math.Round(operation.rightOperand, 2);
+                        break;
+                case "ceiling":
+                        operation.result = Math.Ceiling(operation.leftOperand);
+                       // Math.Ceiling(operation.rightOperand);
+                        break;
+                case "floor":
+                        operation.result = Math.Floor(operation.leftOperand);
+                        //Math.Floor(operation.rightOperand);
+                        break;
                 case "default":
                         operation = new Calculations();
                         operation.leftOperand = 1000;

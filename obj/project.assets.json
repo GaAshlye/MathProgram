@@ -12541,11 +12541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CIDM3312\\MathCalculatorPost\\MathCalculatorPost.csproj",
+      "projectUniqueName": "C:\\CIDM3312\\CIDM3312HWGabby\\MathCalculatorPost-UnitTesting\\MathCalculatorPost\\MathCalculatorPost.csproj",
       "projectName": "MathCalculatorPost",
-      "projectPath": "C:\\CIDM3312\\MathCalculatorPost\\MathCalculatorPost.csproj",
+      "projectPath": "C:\\CIDM3312\\CIDM3312HWGabby\\MathCalculatorPost-UnitTesting\\MathCalculatorPost\\MathCalculatorPost.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\CIDM3312\\MathCalculatorPost\\obj\\",
+      "outputPath": "C:\\CIDM3312\\CIDM3312HWGabby\\MathCalculatorPost-UnitTesting\\MathCalculatorPost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
